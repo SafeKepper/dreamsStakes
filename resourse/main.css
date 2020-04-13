@@ -103,7 +103,7 @@ table {
   opacity: 60%;
 }
 
-#share
+.share
 {
 
 	width:20px;
@@ -111,7 +111,7 @@ table {
 	left:1450px;
 	top:38px;
 }
-#share:hover
+.share:hover
 {
 	opacity:40%;
 	mix-blend-mode:lighten;
