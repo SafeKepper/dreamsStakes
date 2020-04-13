@@ -52,20 +52,38 @@ table {
 {
   width:1920px;
   height:1000px;
+  position: fixed;
   background-image: url("images/Outerbackground.png");
 }
 .topHome
 {
  width:167px;
  height:40px;
- position: fixed;
+ position: relative;
  left:430px;
  top:18px;
- opacity: 0%;
+ opacity:0%;
  background-color: white;
 }
-.transA
+.trans
 {
-  opacity: 100%;
- background-color:red;
+  width: 167px;
+  height: 40px;
+  position:absolute;
+  top: 20;
+  left:430;
+  opacity: 0%;
+  background-color: #212F3D;
+}
+
+.trans:hover
+{
+    width: 168px;
+    height: 43px;
+    position:absolute;
+    top: 20;
+    left:430;
+    opacity: 90%;
+    background-color: black;
+    mix-blend-mode:color-burn;
 }
