@@ -119,32 +119,32 @@ table {
 
 body
 {
-	background: linear-gradient(145deg, #ffffff, #b0eff0, #a4f0ad, #ffffff, #ffffff, #ee8c8c, #ffffff);
-background-size: 1400% 1400%;
+	background: linear-gradient(89deg, #ffffff, #000000);
+background-size: 400% 400%;
 
--webkit-animation: Groams 0s ease infinite;
--moz-animation: Groams 0s ease infinite;
--o-animation: Groams 0s ease infinite;
-animation: Groams 0s ease infinite;
+-webkit-animation: AnimationName 10s ease infinite;
+-moz-animation: AnimationName 10s ease infinite;
+-o-animation: AnimationName 10s ease infinite;
+animation: AnimationName 10s ease infinite;
 
-@-webkit-keyframes Groams {
-    0%{background-position:0% 2%}
-    50%{background-position:100% 99%}
-    100%{background-position:0% 2%}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-@-moz-keyframes Groams {
-    0%{background-position:0% 2%}
-    50%{background-position:100% 99%}
-    100%{background-position:0% 2%}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-@-o-keyframes Groams {
-    0%{background-position:0% 2%}
-    50%{background-position:100% 99%}
-    100%{background-position:0% 2%}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-@keyframes Groams {
-    0%{background-position:0% 2%}
-    50%{background-position:100% 99%}
-    100%{background-position:0% 2%}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 }
