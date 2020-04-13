@@ -57,10 +57,15 @@ table {
 .topHome
 {
  width:167px;
- height:30px;
+ height:40px;
  position: fixed;
  left:430px;
  top:18px;
  opacity: 0%;
  background-color: white;
+}
+.transA
+{
+  opacity: 100%;
+ background-color:red;
 }
