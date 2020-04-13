@@ -59,7 +59,7 @@ table {
 {
  width:167px;
  height:40px;
- position: relative;
+ position: absolute;
  left:430px;
  top:18px;
  opacity:0%;
@@ -67,9 +67,10 @@ table {
 }
 .trans
 {
+	margin:inherit;
   width: 167px;
   height: 40px;
-  position:relative;
+  position:absolute;
   top: 20;
   left:430;
   opacity: 0%;
@@ -100,4 +101,18 @@ table {
 #bottomPlace:hover
 {
   opacity: 60%;
+}
+
+#share
+{
+
+	width:20px;
+	position: relative;
+	left:1450px;
+	top:38px;
+}
+#share:hover
+{
+	opacity:40%;
+	mix-blend-mode:lighten;
 }
