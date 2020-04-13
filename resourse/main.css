@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-  background-image: url("images/Outerbackground.png");
+
 }
 ol, ul {
 	list-style: none;
@@ -46,4 +46,21 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+#top
+{
+  width:1920px;
+  height:1000px;
+  background-image: url("images/Outerbackground.png");
+}
+.topHome
+{
+ width:167px;
+ height:30px;
+ position: fixed;
+ left:430px;
+ top:18px;
+ opacity: 0%;
+ background-color: white;
 }
