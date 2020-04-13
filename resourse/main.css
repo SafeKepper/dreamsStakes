@@ -53,7 +53,7 @@ table {
   width:1920px;
   height:660px;
   position: fixed;
-  background-image: url("images/Outerbackground.png");
+  background-image: url("images/Outerbackground1.png");
 }
 .topHome
 {
@@ -115,4 +115,36 @@ table {
 {
 	opacity:40%;
 	mix-blend-mode:lighten;
+}
+
+body
+{
+	background: linear-gradient(313deg, #000000, #313232, #3e6369, #000000);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 17s ease infinite;
+-moz-animation: AnimationName 17s ease infinite;
+-o-animation: AnimationName 17s ease infinite;
+animation: AnimationName 17s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 0%}
+    50%{background-position:93% 100%}
+    100%{background-position:0% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 0%}
+    50%{background-position:93% 100%}
+    100%{background-position:0% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 0%}
+    50%{background-position:93% 100%}
+    100%{background-position:0% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 0%}
+    50%{background-position:93% 100%}
+    100%{background-position:0% 0%}
+}
 }
